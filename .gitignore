@@ -1,0 +1,61 @@
+# Unreal Engine — 생성물 (커밋 금지: 용량이 수십 GB 단위)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 플러그인 하위의 생성물도 동일
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vsconfig
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# 에디터 자동 백업
+Content/**/*.uasset.tmp
+Content/Collections/
+Content/Developers/
+
+# UE5.7 generates .slnx solutions alongside the legacy .sln
+*.slnx
+
+# 내부 문서 (스펙/계획/개발일지 등) — 공개 저장소에 올리지 않음
+docs/
+
+# ---------------------------------------------------------------------------
+# Arcade.v2 public excerpt — code-focused. Heavy/binary content is kept out:
+# stock Lyra + marketplace art (ROG Creatures, Ancient Golem, ...) must not be
+# redistributed, and bloat the repo. Only the Arcade plugin's own light
+# gameplay assets are tracked.
+# ---------------------------------------------------------------------------
+/Content/
+Plugins/**/Content/
+!Plugins/GameFeatures/Arcade/Content/**
+Plugins/GameFeatures/Arcade/Content/Ancient_Golem/
+Plugins/GameFeatures/Arcade/Content/ROG_Creatures/
+
+# agent / IDE scratch
+.codex/
+.cursor/
+.gemini/
+.vscode/
+.aider*
+/Tools/
+.superpowers/

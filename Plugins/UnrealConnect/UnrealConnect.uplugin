@@ -1,0 +1,24 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0",
+    "FriendlyName": "UnrealConnect",
+    "Description": "HTTP REST API server for Claude Code MCP integration. Exposes actor, blueprint, material, level, editor, asset, and component operations.",
+    "Category": "Editor",
+    "CreatedBy": "",
+    "CreatedByURL": "",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "CanContainContent": false,
+    "IsBetaVersion": true,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "UnrealConnect",
+            "Type": "Editor",
+            "LoadingPhase": "Default"
+        }
+    ]
+}

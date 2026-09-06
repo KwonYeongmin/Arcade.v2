@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GASP",
+	"Description": "Game Animation Sample content, mounted at /GASP/ for the Mover motion-matching comparison ABP.",
+	"Category": "Content",
+	"CreatedBy": "",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [],
+	"Plugins": [
+		{
+			"Name": "DrawDebugLibrary",
+			"Enabled": true
+		}
+	]
+}
